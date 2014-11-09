@@ -6,7 +6,7 @@ describe 'sprout-pivotal-ide-prefs::rubymine' do
 
   it 'clones the pivotal ide prefs repository' do
     runner.converge(described_recipe)
-    expect(runner).to sync_git('pivotal_ide_prefs')
+    expect(runner).to include_recipe('sprout-pivotal-ide-prefs::clone_preferences_repository')
   end
 
   it 'runs the pivotal-ide-prefs install script with the rubymine option' do
