@@ -1,3 +1,5 @@
+sprout_homebrew_cask 'rubymine'
+
 include_recipe('sprout-jetbrains-editors::clone_preferences_repository')
 
 preferences = node['sprout']['jetbrains-editors']['preferences']
