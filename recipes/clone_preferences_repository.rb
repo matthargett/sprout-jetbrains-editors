@@ -1,4 +1,4 @@
-preferences = node['sprout']['pivotal-ide-prefs']['preferences']
+preferences = node['sprout']['jetbrains-editors']['preferences']
 
 git 'pivotal_ide_prefs' do
   destination preferences['clone_dir']

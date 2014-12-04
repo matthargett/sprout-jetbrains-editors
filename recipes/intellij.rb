@@ -1,6 +1,6 @@
-include_recipe('sprout-pivotal-ide-prefs::clone_preferences_repository')
+include_recipe('sprout-jetbrains-editors::clone_preferences_repository')
 
-preferences = node['sprout']['pivotal-ide-prefs']['preferences']
+preferences = node['sprout']['jetbrains-editors']['preferences']
 
 execute 'install_intellij_prefs' do
   cwd preferences['clone_dir'] + '/cli'

@@ -1,4 +1,4 @@
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'sprout-pivotal-ide-prefs', path: '.'
+cookbook 'sprout-jetbrains-editors', path: '.'
 cookbook 'sprout-base', github: 'pivotal-sprout/sprout-base'
