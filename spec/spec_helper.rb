@@ -8,3 +8,7 @@ end
 def install_cask(resource_name)
   ChefSpec::Matchers::ResourceMatcher.new(:sprout_homebrew_cask, :install, resource_name)
 end
+
+def install_preferences(ide_name)
+  ChefSpec::Matchers::ResourceMatcher.new(:sprout_jetbrains_editors_pivotal_preferences, :install, ide_name)
+end
