@@ -5,5 +5,5 @@ git 'pivotal_ide_prefs' do
   repository preferences['repository']
   revision preferences['revision']
   action :sync
-  user node['current_user']
+  user node['sprout']['user']
 end
