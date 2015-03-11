@@ -1,2 +1,3 @@
 sprout_homebrew_cask 'intellij-idea'
 sprout_jetbrains_editors_pivotal_preferences 'intellij'
+sprout_jetbrains_editors_update_allowed_jvm_version 'intellij-idea'
