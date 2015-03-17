@@ -1,2 +1,3 @@
 sprout_homebrew_cask 'rubymine'
 sprout_jetbrains_editors_pivotal_preferences 'rubymine'
+sprout_jetbrains_editors_update_allowed_jvm_version 'rubymine'
