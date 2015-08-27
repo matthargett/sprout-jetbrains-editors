@@ -1,5 +1,7 @@
 # sprout-jetbrains-editors cookbook
 
+[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-jetbrains-editors.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-jetbrains-editors)
+
 Recipes for installing Jetbrains editors on OSX, along with Pivotal's IDE preferences for each editor
 
 ### Recipes
