@@ -7,6 +7,7 @@ Recipes for installing Jetbrains editors on OSX, along with Pivotal's IDE prefer
 ### Recipes
 
 * `sprout-jetbrains-editors::rubymine` installs Rubymine plus preferences
+* `sprout-jetbrains-editors::pycharm` installs PyCharm plus preferences
 * `sprout-jetbrains-editors::intellij` installs Intellij IDEA plus preferences
 * `sprout-jetbrains-editors::intellij_ce` installs Intellij IDEA Community Edition plus preferences
 

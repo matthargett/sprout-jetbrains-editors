@@ -1,0 +1,3 @@
+sprout_homebrew_cask 'pycharm'
+sprout_jetbrains_editors_pivotal_preferences 'pycharm'
+sprout_jetbrains_editors_update_allowed_jvm_version 'pycharm'
