@@ -1,3 +1,2 @@
 sprout_homebrew_cask 'webstorm'
 sprout_jetbrains_editors_pivotal_preferences 'webstorm'
-sprout_jetbrains_editors_update_allowed_jvm_version 'webstorm'

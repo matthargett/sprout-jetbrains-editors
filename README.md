@@ -12,10 +12,12 @@ Recipes for installing Jetbrains editors on OSX, along with Pivotal's IDE prefer
 * `sprout-jetbrains-editors::intellij_ce` installs Intellij IDEA Community Edition plus preferences
 
 *NOTE:*
-To allow the JetBrains IDEs to run with a more recent version of Java, these
-recipes will modify the installed IDE's JVMVersion setting from 1.6* to 1.6+
-If you don't want this modification you can set the:
-`sprout.jetbrains-editors.application.allow_latest_java` attribute to `false`
+Versions of JetBrains IDEs released prior to November 2015 request custom
+setup to run with a more recent version of Java, the update_allowed_jvm_version
+LWRP will update the installed IDE's JVMVersion setting from 1.6* to 1.6+.
+To use this LWRP, you can write a custom recipe that executes
+`sprout_jetbrains_editors_update_allowed_jvm_version 'intellij-idea'`, replacing
+"intellij-idea" with the name of your IDE.
 
 ### Attributes
 
