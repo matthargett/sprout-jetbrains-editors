@@ -1,2 +1,2 @@
-sprout_homebrew_cask 'pycharm'
+homebrew_cask 'pycharm'
 sprout_jetbrains_editors_pivotal_preferences 'pycharm'

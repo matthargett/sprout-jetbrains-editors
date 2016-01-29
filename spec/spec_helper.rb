@@ -6,7 +6,7 @@ RSpec.configure do |config|
 end
 
 def install_cask(resource_name)
-  ChefSpec::Matchers::ResourceMatcher.new(:sprout_homebrew_cask, :install, resource_name)
+  ChefSpec::Matchers::ResourceMatcher.new(:homebrew_cask, :install, resource_name)
 end
 
 def install_preferences(ide_name)

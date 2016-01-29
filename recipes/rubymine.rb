@@ -1,2 +1,2 @@
-sprout_homebrew_cask 'rubymine'
+homebrew_cask 'rubymine'
 sprout_jetbrains_editors_pivotal_preferences 'rubymine'
