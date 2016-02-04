@@ -4,6 +4,11 @@ require 'pry'
 describe 'sprout-jetbrains-editors::intellij_ce' do
   let(:runner) { ChefSpec::SoloRunner.new }
 
+  it 'ensures that "caskroom/versions" is tapped' do
+    runner.converge(described_recipe)
+    expect(runner).to tap_homebrew_tap('caskroom/versions')
+  end
+
   it 'installs intellij-ce' do
     runner.converge(described_recipe)
     expect(runner).to install_cask('intellij-idea-ce')
