@@ -1,1 +1,8 @@
 recipes:
+  - sprout-jetbrains-editors::android_studio
+  - sprout-jetbrains-editors::clone_preferences_repository
+  - sprout-jetbrains-editors::intellij
+  - sprout-jetbrains-editors::intellij_ce
+  - sprout-jetbrains-editors::pycharm
+  - sprout-jetbrains-editors::rubymine
+  - sprout-jetbrains-editors::webstorm
