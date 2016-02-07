@@ -5,5 +5,7 @@ install:
   - sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle install
   - brew uninstall --force brew-cask
   - brew update
+  - brew cleanup
+  - brew cask cleanup
 script:
   - bundle exec rake ci
