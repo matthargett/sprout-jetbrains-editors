@@ -7,11 +7,11 @@ AllCops:
    - cookbooks/**/*
    - tmp/**/*
 
-SingleSpaceBeforeFirstArg:
+SpaceBeforeFirstArg:
   Enabled: false # Useful for more readable alignment of method call args
 
 LineLength:
   Max: 120
 
-Blocks:
+BlockDelimiters:
   Enabled: false # For multi-line expect { ... }.to blah { ... }

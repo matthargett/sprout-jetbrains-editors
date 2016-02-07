@@ -1,3 +1,5 @@
+use_inline_resources
+
 action :install do
   run_context.include_recipe 'sprout-jetbrains-editors::clone_preferences_repository'
   package = new_resource.name

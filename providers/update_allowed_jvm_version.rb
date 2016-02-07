@@ -1,6 +1,7 @@
 # This provider is for JetBrains IDEs from before November 2015,
 # after which the editors come bundled with custom JVM versions.
 # Therefore, only run this provider if using older JetBrains IDEs.
+use_inline_resources
 
 action :install do
   jvm_version  = node['sprout']['jetbrains-editors']['application']['jvm_version']
