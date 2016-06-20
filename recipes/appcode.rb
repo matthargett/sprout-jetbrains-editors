@@ -1,0 +1,3 @@
+sprout_homebrew_cask 'appcode'
+sprout_jetbrains_editors_pivotal_preferences 'appcode'
+sprout_jetbrains_editors_update_allowed_jvm_version 'appcode'
